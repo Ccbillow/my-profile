@@ -35,26 +35,34 @@
   }
 }
 
-.social-links {
+.contact-icons {
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  gap: 10rem;
+  margin-top: 2rem;
+}
 
-  a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: $white-color;
-    font-size: 3rem;
-    width: 5rem;
-    height: 5rem;
-    margin: $default-font-size $default-font-size;
-    transition: all 0.2s ease-in;
+.contact-icons i {
+  font-size: 3rem;
+  color: #444;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
 
-    &:hover {
-      transform: translateY(-2px);
-    }
-  }
+.contact-icons a:hover i {
+  transform: translateY(-5px) scale(1.2);
+}
+
+.contact-icons a[href^="mailto"]:hover i {
+  color: #d44638;
+}
+.contact-icons a[href^="tel"]:hover i {
+  color: #28a745;
+}
+.contact-icons a[href*="linkedin"]:hover i {
+  color: #0077b5;
+}
+.contact-icons a[href*="github"]:hover i {
+  color: #333;
 }
 
 .back-to-top i {

@@ -23,6 +23,13 @@ export const targetElements = [
     },
   },
   {
+      element: ".hero-tagline",
+      animation: {
+        delay: 800,
+        origin: window.innerWidth > 768 ? "left" : "bottom",
+      },
+    },
+  {
     element: ".hero-cta",
     animation: {
       delay: 1000,
@@ -62,6 +69,27 @@ export const targetElements = [
     animation: {
       delay: 800,
       origin: "bottom",
+    },
+  },
+  {
+    element: ".contact-tagline",
+    animation: {
+      delay: 1200,
+      origin: "bottom",
+    },
+  },
+  {
+    element: ".tech-wrapper",
+    animation: {
+      delay: 500,
+      origin: window.innerWidth > 768 ? "left" : "bottom",
+    },
+  },
+  {
+    element: ".tech-item",
+    animation: {
+      delay: 800,
+      origin: window.innerWidth > 768 ? "left" : "bottom",
     },
   },
 ];

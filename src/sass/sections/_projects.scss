@@ -2,7 +2,7 @@
   background-color: $white-color;
   color: $dark-blue-text;
   margin-top: -10rem;
-  padding-top: 15rem;
+  padding-top: 10rem;
 
   @include respond(tab-land) {
     margin-top: 0;
@@ -26,6 +26,8 @@
 
     &__text {
       text-align: left;
+      max-width: 950px;
+      margin: 0 auto;
 
       @include respond(phone) {
         margin-bottom: 2.5rem !important;
@@ -47,6 +49,52 @@
       & p > a {
         color: $secondary-color;
       }
+
+      .project-section-title {
+        font-size: 1.7rem;
+        font-weight: bold;
+      }
+
+      .project-description {
+        margin-bottom: 1.5rem;
+        color: $dark-blue-text;
+        font-size: 1.6rem;
+      }
+
+      ul {
+        padding-left: 3rem;
+        list-style-type: disc;
+      }
+
+     li {
+        margin-bottom: 0.5rem;
+        line-height: 1.6;
+        font-size: 1.5rem;
+     }
+
+     .tech-stack {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 0.5rem;
+         margin-top: 0.5rem;
+         margin-bottom: 2rem;
+     }
+
+     .badge {
+         background-color: #f0f4f8;
+         color: #333;
+         border: 1px solid #ccc;
+         border-radius: 20px;
+         padding: 0.5rem 1rem;
+         font-size: 1.1rem;
+         font-weight: 500;
+         transition: background-color 0.3s ease;
+     }
+
+     .badge:hover {
+         background-color: #acd6ff;
+         cursor: default;
+     }
     }
 
     &__image {
