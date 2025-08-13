@@ -70,7 +70,7 @@
                             alt="Profile Image"
                             class="img-fluid rounded shadow-lg"
                             height="auto"
-                            width="400px"
+                            width="450px"
                             src="assets/profile_Simon.jpg"
                             alt="Profile Image"
                     />
@@ -111,161 +111,96 @@
 <section id="techstack">
     <div class="container">
         <h2 class="section-title">Tech Stack</h2>
-        <div class="tech-wrapper load-hidden">
-            <div class="tech-item load-hidden" title="Java" data-tooltip="5+ years experience">
-                <img src="assets/tech/java.svg" alt="Java"/>
-                <p>Java</p>
+
+        <!-- Tab -->
+        <div class="tabs">
+            <button class="tab-btn" data-tab="languages">Languages & Core</button>
+            <button class="tab-btn" data-tab="frameworks">Frameworks & Libraries</button>
+            <button class="tab-btn" data-tab="databases">Databases & Messaging</button>
+            <button class="tab-btn" data-tab="devops">DevOps & Cloud</button>
+            <button class="tab-btn" data-tab="tools">Architecture & Tools</button>
+        </div>
+
+        <!-- Tab -->
+        <div class="tab-content">
+
+            <!-- Languages -->
+            <div class="tab-panel" id="languages">
+                <div class="tech-wrapper">
+                    <div class="tech-item" title="Java"><img src="assets/tech/java.svg" alt="Java"/><p>Java</p></div>
+                    <div class="tech-item" title="SQL"><img src="assets/tech/sql.svg" alt="SQL"/><p>SQL</p></div>
+                    <div class="tech-item" title="Bash/Shell"><img src="assets/tech/bash.svg" alt="Bash/Shell"/><p>Bash/Shell</p></div>
+                    <div class="tech-item" title="HTML"><img src="assets/tech/html.svg" alt="HTML"/><p>HTML</p></div>
+                    <div class="tech-item" title="JavaScript"><img src="assets/tech/javascript.svg" alt="JavaScript"/><p>JavaScript</p></div>
+                    <div class="tech-item" title="JSON"><img src="assets/tech/json.svg" alt="JSON"/><p>JSON</p></div>
+                    <div class="tech-item" title="YAML"><img src="assets/tech/yaml.svg" alt="YAML"/><p>YAML</p></div>
+                    <div class="tech-item" title="XML"><img src="assets/tech/xml.svg" alt="XML"/><p>XML</p></div>
+                </div>
             </div>
-            <div class="tech-item load-hidden" title="Spring Boot">
-                <img src="assets/tech/springboot.svg" alt="Spring Boot"/>
-                <p>Spring Boot</p>
+
+            <!-- Frameworks -->
+            <div class="tab-panel" id="frameworks">
+                <div class="tech-wrapper">
+                    <div class="tech-item" title="Spring Boot"><img src="assets/tech/springboot.svg" alt="Spring Boot"/><p>Spring Boot</p></div>
+                    <div class="tech-item" title="Spring Cloud"><img src="assets/tech/springcloud.svg" alt="Spring Cloud"/><p>Spring Cloud</p></div>
+                    <div class="tech-item" title="Spring Security"><img src="assets/tech/springsecurity.svg" alt="Spring Security"/><p>Spring Security</p></div>
+                    <div class="tech-item" title="Hibernate"><img src="assets/tech/hibernate.svg" alt="Hibernate"/><p>Hibernate</p></div>
+                    <div class="tech-item" title="Mybatis"><img src="assets/tech/mybatis.svg" alt="Mybatis"/><p>Mybatis</p></div>
+                    <div class="tech-item" title="JUnit5"><img src="assets/tech/junit.svg" alt="JUnit5"/><p>JUnit5</p></div>
+                    <div class="tech-item" title="JWT"><img src="assets/tech/jwt.svg" alt="JWT"/><p>JWT</p></div>
+                </div>
             </div>
-            <div class="tech-item load-hidden" title="Spring Cloud">
-                <img src="assets/tech/springcloud.svg" alt="Spring Cloud"/>
-                <p>Spring Cloud</p>
+
+            <!-- Databases -->
+            <div class="tab-panel" id="databases">
+                <div class="tech-wrapper">
+                    <div class="tech-item" title="MySQL"><img src="assets/tech/mysql.svg" alt="MySQL"/><p>MySQL</p></div>
+                    <div class="tech-item" title="PostgreSQL"><img src="assets/tech/postgresql.svg" alt="PostgreSQL"/><p>PostgreSQL</p></div>
+                    <div class="tech-item" title="MS SQL"><img src="assets/tech/sqlserver.svg" alt="MS SQL"/><p>MS SQL</p></div>
+                    <div class="tech-item" title="Oracle"><img src="assets/tech/oracle.svg" alt="Oracle"/><p>Oracle</p></div>
+                    <div class="tech-item" title="Redis"><img src="assets/tech/redis.svg" alt="Redis"/><p>Redis</p></div>
+                    <div class="tech-item" title="Kafka"><img src="assets/tech/kafka.svg" alt="Kafka"/><p>Kafka</p></div>
+                    <div class="tech-item" title="Rabbitmq"><img src="assets/tech/rabbitmq.svg" alt="Rabbitmq"/><p>Rabbitmq</p></div>
+                </div>
             </div>
-            <div class="tech-item load-hidden" title="MySQL">
-                <img src="assets/tech/mysql.svg" alt="MySQL"/>
-                <p>MySQL</p>
+
+            <!-- DevOps -->
+            <div class="tab-panel" id="devops">
+                <div class="tech-wrapper">
+                    <div class="tech-item" title="Maven"><img src="assets/tech/maven.svg" alt="Maven"/><p>Maven</p></div>
+                    <div class="tech-item" title="Git"><img src="assets/tech/git.svg" alt="Git"/><p>Git</p></div>
+                    <div class="tech-item" title="Bitbucket"><img src="assets/tech/bitbucket.svg" alt="Bitbucket"/><p>Bitbucket</p></div>
+                    <div class="tech-item" title="Docker"><img src="assets/tech/docker.svg" alt="Docker"/><p>Docker</p></div>
+                    <div class="tech-item" title="Kubernetes"><img src="assets/tech/kubernetes.svg" alt="Kubernetes"/><p>Kubernetes</p></div>
+                    <div class="tech-item" title="Jenkins"><img src="assets/tech/jenkins.svg" alt="Jenkins"/><p>Jenkins</p></div>
+<!--                    <div class="tech-item" title="Github Actions"><img src="assets/tech/github.svg" alt="Github Actions"/><p>Github Actions</p></div>-->
+                    <div class="tech-item" title="AWS"><img src="assets/tech/aws.svg" alt="AWS"/><p>AWS</p></div>
+                    <div class="tech-item" title="Azure"><img src="assets/tech/azure.svg" alt="Azure"/><p>Azure</p></div>
+                </div>
             </div>
-            <div class="tech-item load-hidden" title="PostgreSQL">
-                <img src="assets/tech/postgresql.svg" alt="PostgreSQL"/>
-                <p>PostgreSQL</p>
+
+            <!-- Tools -->
+            <div class="tab-panel" id="tools">
+                <div class="tech-wrapper">
+                    <div class="tech-item" title="RESTful API"><img src="assets/tech/restapi.svg" alt="RESTful API"/><p>RESTful API</p></div>
+                    <div class="tech-item" title="Microservices"><img src="assets/tech/microservice.svg" alt="Microservices"/><p>Microservices</p></div>
+                    <div class="tech-item" title="Postman"><img src="assets/tech/postman.svg" alt="Postman"/><p>Postman</p></div>
+                    <div class="tech-item" title="Jira"><img src="assets/tech/jira.svg" alt="Jira"/><p>Jira</p></div>
+                    <div class="tech-item" title="JMeter"><img src="assets/tech/jmeter.svg" alt="JMeter"/><p>JMeter</p></div>
+                    <div class="tech-item" title="SonarQube"><img src="assets/tech/sonarqube.svg" alt="SonarQube"/><p>SonarQube</p></div>
+                    <div class="tech-item" title="ELK"><img src="assets/tech/elastic.svg" alt="ELK"/><p>ELK</p></div>
+                    <div class="tech-item" title="Swagger"><img src="assets/tech/swagger.svg" alt="Swagger"/><p>Swagger</p></div>
+                    <div class="tech-item" title="Confluence"><img src="assets/tech/confluence.svg" alt="Confluence"/><p>Confluence</p></div>
+                    <div class="tech-item" title="IntelliJ IDEA"><img src="assets/tech/intellijidea.svg" alt="IntelliJ IDEA"/><p>IntelliJ IDEA</p></div>
+                    <div class="tech-item" title="Eclipse"><img src="assets/tech/eclipse.svg" alt="Eclipse"/><p>Eclipse</p></div>
+                    <div class="tech-item" title="Linux"><img src="assets/tech/linux.svg" alt="Linux"/><p>Linux</p></div>
+                </div>
             </div>
-            <div class="tech-item load-hidden" title="Hibernate">
-                <img src="assets/tech/hibernate.svg" alt="Hibernate"/>
-                <p>Hibernate</p>
-            </div>
-            <div class="tech-item load-hidden" title="Mybatis">
-                <img src="assets/tech/mybatis.svg" alt="Mybatis"/>
-                <p>Mybatis</p>
-            </div>
-            <div class="tech-item load-hidden" title="Redis">
-                <img src="assets/tech/redis.svg" alt="Redis"/>
-                <p>Redis</p>
-            </div>
-            <div class="tech-item load-hidden" title="Kafka">
-                <img src="assets/tech/kafka.svg" alt="Kafka"/>
-                <p>Kafka</p>
-            </div>
-            <div class="tech-item load-hidden" title="Maven">
-                <img src="assets/tech/maven.svg" alt="Maven"/>
-                <p>Maven</p>
-            </div>
-            <div class="tech-item load-hidden" title="Git">
-                <img src="assets/tech/git.svg" alt="Git"/>
-                <p>Git</p>
-            </div>
-            <div class="tech-item load-hidden" title="Bitbucket">
-                <img src="assets/tech/bitbucket.svg" alt="Bitbucket"/>
-                <p>Bitbucket</p>
-            </div>
-            <div class="tech-item load-hidden" title="Docker">
-                <img src="assets/tech/docker.svg" alt="Docker"/>
-                <p>Docker</p>
-            </div>
-            <div class="tech-item load-hidden" title="Kubernetes">
-                <img src="assets/tech/kubernetes.svg" alt="Kubernetes"/>
-                <p>Kubernetes</p>
-            </div>
-            <div class="tech-item load-hidden" title="Jenkins">
-                <img src="assets/tech/jenkins.svg" alt="Jenkins"/>
-                <p>Jenkins</p>
-            </div>
-            <div class="tech-item load-hidden" title="Microservices">
-                <img src="assets/tech/microservices.svg" alt="Microservices"/>
-                <p>Microservices</p>
-            </div>
-            <div class="tech-item load-hidden" title="AWS">
-                <img src="assets/tech/aws.svg" alt="AWS"/>
-                <p>AWS</p>
-            </div>
-            <div class="tech-item load-hidden" title="Azure">
-                <img src="assets/tech/azure.svg" alt="Azure"/>
-                <p>Azure</p>
-            </div>
-            <div class="tech-item load-hidden" title="JSON">
-                <img src="assets/tech/json.svg" alt="JSON"/>
-                <p>JSON</p>
-            </div>
-            <div class="tech-item load-hidden" title="JUnit5">
-                <img src="assets/tech/junit.svg" alt="JUnit5"/>
-                <p>JUnit5</p>
-            </div>
-            <div class="tech-item load-hidden" title="Postman">
-                <img src="assets/tech/postman.svg" alt="Postman"/>
-                <p>Postman</p>
-            </div>
-            <div class="tech-item load-hidden" title="Jira">
-                <img src="assets/tech/jira.svg" alt="Jira"/>
-                <p>Jira</p>
-            </div>
+
         </div>
     </div>
 </section>
-<!--<section id="techstack">-->
-<!--    <h2>Tech Stack</h2>-->
 
-<!--    &lt;!&ndash; Languages &ndash;&gt;-->
-<!--    <div class="tech-group">-->
-<!--        <h3>Languages</h3>-->
-<!--        <div class="tech-wrapper">-->
-<!--            <div class="tech-item" data-tooltip="5+ years experience">-->
-<!--                <img src="assets/tech/java.svg" alt="Java" />-->
-<!--                <p>Java</p>-->
-<!--            </div>-->
-<!--&lt;!&ndash;            <div class="tech-item" data-tooltip="3 years experience">&ndash;&gt;-->
-<!--&lt;!&ndash;                <img src="assets/tech/kotlin.svg" alt="Kotlin" />&ndash;&gt;-->
-<!--&lt;!&ndash;                <p>Kotlin</p>&ndash;&gt;-->
-<!--&lt;!&ndash;            </div>&ndash;&gt;-->
-<!--        </div>-->
-<!--    </div>-->
-
-<!--    &lt;!&ndash; Frameworks &ndash;&gt;-->
-<!--    <div class="tech-group">-->
-<!--        <h3>Frameworks</h3>-->
-<!--        <div class="tech-wrapper">-->
-<!--            <div class="tech-item" data-tooltip="Used in 5 projects">-->
-<!--                <img src="assets/tech/springboot1.svg" alt="Spring Boot" />-->
-<!--                <p>Spring Boot</p>-->
-<!--            </div>-->
-<!--            <div class="tech-item" data-tooltip="Used in microservice development">-->
-<!--                <img src="assets/tech/springcloud1.svg" alt="Spring Cloud" />-->
-<!--                <p>Spring Cloud</p>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-
-<!--    &lt;!&ndash; CI/CD & Tools &ndash;&gt;-->
-<!--    <div class="tech-group">-->
-<!--        <h3>CI/CD & Tools</h3>-->
-<!--        <div class="tech-wrapper">-->
-<!--            <div class="tech-item" data-tooltip="Experienced with Jenkins pipelines">-->
-<!--                <img src="assets/tech/jenkins.svg" alt="Jenkins" />-->
-<!--                <p>Jenkins</p>-->
-<!--            </div>-->
-<!--            <div class="tech-item" data-tooltip="Used Docker in 4 projects">-->
-<!--                <img src="assets/tech/docker.svg" alt="Docker" />-->
-<!--                <p>Docker</p>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-
-<!--    &lt;!&ndash; Databases &ndash;&gt;-->
-<!--    <div class="tech-group">-->
-<!--        <h3>Databases</h3>-->
-<!--        <div class="tech-wrapper">-->
-<!--            <div class="tech-item" data-tooltip="5+ years with Postgresql">-->
-<!--                <img src="assets/tech/postgresql.svg" alt="Postgresql" />-->
-<!--                <p>Oracle</p>-->
-<!--            </div>-->
-<!--            <div class="tech-item" data-tooltip="Used in 3 projects">-->
-<!--                <img src="assets/tech/mysql1.svg" alt="MySQL" />-->
-<!--                <p>MySQL</p>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
 
 <!-- /END Tech Stack Section -->
 
@@ -284,52 +219,11 @@
                             <span class="text-muted" style="font-size: 0.7em;"> ｜ Jan 2023 – Feb 2024 </span>
                         </h3>
                         <div class="project-section">
-                            <h4 class="project-section-title">Overview</h4>
+<!--                            <h4 class="project-section-title">Overview</h4>-->
                             <p class="project-description">
                                 A scalable banking deposit system, redesigned as Java microservices with event-driven
                                 architecture, core features: Save, Withdraw, Renew, Enquiry.
                             </p>
-                        </div>
-                        <!--                        <div class="impact">-->
-                        <!--                            🚀️ Improved project delivery efficiency, led the migration to a Kafka-based event-driven-->
-                        <!--                            architecture, enhancing system scalability and flexibility.-->
-                        <!--                        </div>-->
-
-                        <!--                        <div class="project-section">-->
-                        <!--                            <button class="toggle-btn">Show My Contributions</button>-->
-                        <!--                            <div class="foldable-section">-->
-                        <!--                                <ul class="mb-4">-->
-                        <!--                                    <li>Redesigned backend system to Java microservices, delivered architecture,-->
-                        <!--                                        sequence diagrams, workflows, and API specifications.-->
-                        <!--                                    </li>-->
-                        <!--                                    <li>Proposed and implemented a <strong>dual-phase sprint model</strong>, reducing-->
-                        <!--                                        rework caused by unclear requirements by 40%, improving design approval rates.-->
-                        <!--                                    </li>-->
-                        <!--                                    <li><strong>Coordinated a cross-functional team of 6 members</strong>, facilitated-->
-                        <!--                                        daily meetings and unblock sessions.-->
-                        <!--                                    </li>-->
-                        <!--                                    <li>Developed an enquiry module, achieving response times under 200ms.</li>-->
-                        <!--                                </ul>-->
-                        <!--                            </div>-->
-                        <!--                        </div>-->
-                        <div class="project-section">
-                            <h4 class="project-section-title">My Contributions</h4>
-                            <ul class="mb-4">
-                                <li>Redesigned backend system to Java microservices, delivered architecture, sequence
-                                    diagrams, workflows, and API specifications.
-                                </li>
-                                <li>Proposed and implemented a <strong>dual-phase sprint model</strong>, reducing rework
-                                    caused by
-                                    unclear requirements by 40%, improving design approval rates.
-                                </li>
-                                <li><strong>Coordinated a cross-functional team of 6 members</strong>, facilitated daily
-                                    meetings and
-                                    unblock sessions.
-                                </li>
-                                <li>Designed an enquiry module with event-driven architecture, achieving response times
-                                    under 200ms.
-                                </li>
-                            </ul>
                         </div>
                         <div class="project-section">
                             <h4 class="project-section-title">Tech Stack</h4>
@@ -352,7 +246,27 @@
                             </div>
                         </div>
 
-
+                        <div class="project-section">
+                            <button class="toggle-btn">Show Details</button>
+                            <div class="foldable-section">
+                                <ul class="mb-4">
+                                    <li>Redesigned backend system to Java microservices, delivered architecture, sequence
+                                        diagrams, workflows, and API specifications.
+                                    </li>
+                                    <li>Proposed and implemented a <strong>dual-phase sprint model</strong>, reducing rework
+                                        caused by
+                                        unclear requirements by 40%, improving design approval rates.
+                                    </li>
+                                    <li><strong>Coordinated a cross-functional team of 6 members</strong>, facilitated daily
+                                        meetings and
+                                        unblock sessions.
+                                    </li>
+                                    <li>Designed an enquiry module with event-driven architecture, achieving response times
+                                        under 200ms.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -366,36 +280,10 @@
                             <span class="text-muted" style="font-size: 0.7em;"> ｜ Apr 2022 – Feb 2023 </span>
                         </h3>
                         <div class="project-section">
-                            <h4 class="project-section-title">Overview</h4>
                             <p class="project-description">
                                 A daily-use system for medical rep built with Spring Cloud. Core features:
                                 article sending and reading, with complex reverse-matching logic.
-                                <!--                                <strong>Impact:</strong>-->
-                                <!--                            <div class="impact">-->
-                                <!--                                🛠️️ Refactored the critical legacy code, improved long-term system maintainability and-->
-                                <!--                                increased testing efficiency by ~30%.-->
-                                <!--                            </div>-->
                             </p>
-                        </div>
-
-                        <div class="project-section">
-                            <h4 class="project-section-title">My Contributions</h4>
-                            <ul class="mb-4">
-                                <li>Refactored a complex reverse-match function with 10+ undocumented legacy logic
-                                    branches and poor maintainability. <strong>Led a gradual, risk-controlled
-                                        refactor
-                                        process</strong>using XMind to map business logic and validate with
-                                    stakeholders.
-                                </li>
-                                <li>Wrote comprehensive unit tests to ensure functional integrity after refactoring;
-                                </li>
-                                <li><strong>Improved integration testing efficiency by ~30%</strong> through structured
-                                    test data setup and teardown, ensuring isolation, consistency, and reliability.
-                                </li>
-                                <li>Rapidly fixed NPE production issue, delivered a hotfix with root cause analysis
-                                    (RCA) and long-term data validation strategy.
-                                </li>
-                            </ul>
                         </div>
                         <div class="project-section">
                             <h4 class="project-section-title">Tech Stack</h4>
@@ -416,6 +304,29 @@
                                 <span class="badge">Postman</span>
                             </div>
                         </div>
+
+                        <div class="project-section">
+                            <button class="toggle-btn">Show Details</button>
+                            <div class="foldable-section">
+                                <ul class="mb-4">
+                                    <li>Refactored a complex reverse-match function with 10+ undocumented legacy logic
+                                        branches and poor maintainability. <strong>Led a gradual, risk-controlled
+                                            refactor
+                                            process</strong>using XMind to map business logic and validate with
+                                        stakeholders.
+                                    </li>
+                                    <li>Wrote comprehensive unit tests to ensure functional integrity after refactoring;
+                                    </li>
+                                    <li><strong>Improved integration testing efficiency by ~30%</strong> through structured
+                                        test data setup and teardown, ensuring isolation, consistency, and reliability.
+                                    </li>
+                                    <li>Rapidly fixed NPE production issue, delivered a hotfix with root cause analysis
+                                        (RCA) and long-term data validation strategy.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -429,53 +340,11 @@
                             <span class="text-muted" style="font-size: 0.7em;"> ｜ TB-Level Volume across 100+Banks | Jul 2021 – Mar 2022 </span>
                         </h3>
                         <div class="project-section">
-                            <h4 class="project-section-title">Overview</h4>
                             <p class="project-description">
                                 A high-availability system deployable across domains under regulatory environments,
                                 handling terabytes of data daily from over a hundred banks.
                                 Core features: data transfer between online (DB) and offline (SFTP/OSS),
-                                <!--                                <strong>Impact:</strong>-->
-                                <!--                            <div class="impact">-->
-                                <!--                                ⏱️ Led the development of a cross-domain, reliable file platform, enabling over-->
-                                <!--                                60% of teams to automate data transfers, and boosting productivity by ~20% by-->
-                                <!--                                eliminating-->
-                                <!--                                manual weekly handoffs.-->
-                                <!--                            </div>-->
                             </p>
-                        </div>
-
-                        <div class="project-section">
-                            <h4 class="project-section-title">My Contributions</h4>
-                            <ul class="mb-4">
-                                <li>Independently developed a high-availablility File Platform System, supporting
-                                    <strong>terabyte-scale daily</strong> data (e.g., payments, refunds, loans, fees)
-                                    between Alipay,
-                                    government, and hundreds of banks via DB↔SFTP, DB↔OSS.
-                                </li>
-                                <li>Applied <strong>Strategy and Factory design patterns</strong> to integrate multiple
-                                    SDKs (e.g.,
-                                    DataWorks, DataPhin), improving system extensibility and maintainability.
-                                </li>
-                                <li>Proposed a <strong>decisive solution</strong> and architectural shift to the cross-domain deployment
-                                    challenge with incompatible infrastructures (Alibaba, government, and banks);
-                                    Designed a <strong>unified, multi-module, maven profile-based</strong> solution,
-                                    enabling 0->1 and scalable 1->N scaling.
-                                </li>
-                                <li>Implemented a <strong>high-availability</strong> strategy to avoid external service
-                                    failures, including rate limiting, circuit breaker with retry, asynchronous fallback handling,
-                                    scheduled recovery, and real-time alerting.
-                                </li>
-                                <li>Built automated file comparison scripts, saving <strong>2~3 hours of manual effort
-                                    daily</strong> and enabling smooth production rollout.
-                                </li>
-                                <li>Enabled 60%+ of teams to automate data transfer, <strong>boosting
-                                    productivity by ~20%</strong> by eliminating manual weekly handoffs.
-                                </li>
-                                <li>Resolved SDK delays by re-estimating tasks, escalating blockers with backup plans,
-                                    and coordinating stakeholder meetings to negotiate phased delivery, ensuring project
-                                    continuity.
-                                </li>
-                            </ul>
                         </div>
 
                         <div class="project-section">
@@ -500,11 +369,48 @@
                                 <span class="badge">Postman</span>
                             </div>
                         </div>
-                        <h4 class="project-section-title">Architecture Evolution</h4>
-                        <p class="project-description">
-                            The following diagrams illustrate the system architecture evolution across phases.
-                            Sensitive information has been removed.
-                        </p>
+                        <div class="project-section">
+                            <button class="toggle-btn">Show Details</button>
+                            <div class="foldable-section">
+                                <ul class="mb-4">
+                                    <li>Independently developed a high-availablility File Platform System, supporting
+                                        <strong>terabyte-scale daily</strong> data (e.g., payments, refunds, loans, fees)
+                                        between Alipay,
+                                        government, and hundreds of banks via DB↔SFTP, DB↔OSS.
+                                    </li>
+                                    <li>Applied <strong>Strategy and Factory design patterns</strong> to integrate multiple
+                                        SDKs (e.g.,
+                                        DataWorks, DataPhin), improving system extensibility and maintainability.
+                                    </li>
+                                    <li>Proposed a <strong>decisive solution</strong> and architectural shift to the cross-domain deployment
+                                        challenge with incompatible infrastructures (Alibaba, government, and banks);
+                                        Designed a <strong>unified, multi-module, maven profile-based</strong> solution,
+                                        enabling 0->1 and scalable 1->N scaling.
+                                    </li>
+                                    <li>Implemented a <strong>high-availability</strong> strategy to avoid external service
+                                        failures, including rate limiting, circuit breaker with retry, asynchronous fallback handling,
+                                        scheduled recovery, and real-time alerting.
+                                    </li>
+                                    <li>Built automated file comparison scripts, saving <strong>2~3 hours of manual effort
+                                        daily</strong> and enabling smooth production rollout.
+                                    </li>
+                                    <li>Enabled 60%+ of teams to automate data transfer, <strong>boosting
+                                        productivity by ~20%</strong> by eliminating manual weekly handoffs.
+                                    </li>
+                                    <li>Resolved SDK delays by re-estimating tasks, escalating blockers with backup plans,
+                                        and coordinating stakeholder meetings to negotiate phased delivery, ensuring project
+                                        continuity.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+<!--                        <h4 class="project-section-title">Architecture Evolution</h4>-->
+<!--                        <p class="project-description">-->
+<!--                            The following diagrams illustrate the system architecture evolution across phases.-->
+<!--                            Sensitive information has been removed.-->
+<!--                        </p>-->
                         <a
                                 rel="noreferrer"
                                 target="_blank"
@@ -540,7 +446,7 @@
                             <span class="text-muted" style="font-size: 0.7em;"> ｜ Oct 2018 – Mar 2021 </span>
                         </h3>
                         <div class="project-section">
-                            <h4 class="project-section-title">Overview</h4>
+<!--                            <h4 class="project-section-title">Overview</h4>-->
                             <p class="project-description">
                                 A configurable insurance portal system. Core features: policy confirmation, image
                                 upload,
@@ -597,7 +503,7 @@
                             <span class="text-muted" style="font-size: 0.7em;"> ｜ Million-level concurrency | Oct 2018 – Mar 2021 </span>
                         </h3>
                         <div class="project-section">
-                            <h4 class="project-section-title">Overview</h4>
+<!--                            <h4 class="project-section-title">Overview</h4>-->
                             <p class="project-description">
                                 A high-throughput promotion system supporting 320,000 QPS peak load, using JVM tuning,
                                 batch processing, asynchronous calls, and interface degradation strategies to maintain
@@ -659,7 +565,7 @@
                             <span class="text-muted" style="font-size: 0.7em;"> | Jul 2025 </span>
                         </h3>
                         <div class="project-section">
-                            <h4 class="project-section-title">Overview</h4>
+<!--                            <h4 class="project-section-title">Overview</h4>-->
                             <p class="project-description">
                                 A simulation project developed independently with production-level standards,
                                 demonstrating my capability to build extensible, fault-tolerant, and concurrency-safe
