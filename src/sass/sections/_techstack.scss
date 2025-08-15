@@ -6,7 +6,7 @@
   .tabs {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 5rem;
+    margin-top: 6rem;
     margin-bottom: 3rem;
     gap: 1.2rem;
     justify-content: center;
@@ -18,31 +18,9 @@
   }
 
   .tab-btn {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    border: 2px solid $primary-color;
-    color: $primary-color;
-    background: transparent;
     cursor: pointer;
-    transition: all 0.5s ease;
-    border-radius: 1px;
-
-    &:hover {
-      background: linear-gradient(to right, $primary-color, $secondary-color);
-      color: #fff;
-    }
-
-    &.active {
-      background: linear-gradient(to right, $primary-color, $secondary-color);
-      color: #fff;
-    }
-
-    &:focus {
-      outline: none;
-      box-shadow: 0 0 0 3px rgba($primary-color, 0.5);
-    }
   }
 
   .tab-panel {

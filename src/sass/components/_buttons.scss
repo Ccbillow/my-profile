@@ -80,6 +80,15 @@
       width: 100%;
     }
   }
+
+  &.active {
+    -webkit-text-fill-color: $white-color;
+    text-decoration: none;
+
+    &::after {
+      width: 100%;
+    }
+  }
 }
 
 /* Resume Style */
