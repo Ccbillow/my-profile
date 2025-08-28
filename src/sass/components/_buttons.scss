@@ -54,6 +54,12 @@
     background-image: none;
     border: 2px solid $secondary-color;
     -webkit-text-fill-color: $secondary-color;
+
+    &:active,
+        &:focus {
+          -webkit-text-fill-color: $secondary-color !important;
+          background: transparent !important;
+        }
   }
 
   &::after {
@@ -113,4 +119,9 @@
 /* Arrow Button */
 .up i {
   color: #272727;
+}
+
+/* Button Spacing*/
+.btn-spacing {
+  margin-left: 2rem;
 }
