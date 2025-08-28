@@ -54,12 +54,6 @@
     background-image: none;
     border: 2px solid $secondary-color;
     -webkit-text-fill-color: $secondary-color;
-
-    &:active,
-        &:focus {
-          -webkit-text-fill-color: $secondary-color !important;
-          background: transparent !important;
-        }
   }
 
   &::after {
@@ -95,6 +89,12 @@
       width: 100%;
     }
   }
+}
+
+.cta-btn--hero.active {
+  background: $secondary-color;
+  -webkit-text-fill-color: $white-color;
+  border-color: $secondary-color;
 }
 
 /* Resume Style */

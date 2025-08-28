@@ -1,6 +1,14 @@
 export default function initTechStackTabs() {
   const tabButtons = document.querySelectorAll('.tab-btn');
   const tabPanels = document.querySelectorAll('.tab-panel');
+  const tabs = document.querySelectorAll('.tab-btn');
+
+  tabs.forEach(btn => {
+    btn.addEventListener('click', () => {
+      tabs.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
 
   if (!tabButtons.length || !tabPanels.length) return;
 
